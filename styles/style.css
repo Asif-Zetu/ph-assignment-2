@@ -29,6 +29,7 @@
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 18px;
 }
 
 .navbar-title {
@@ -92,4 +93,96 @@
 
 .menu-bar i {
   font-size: 2.8rem;
+}
+
+/* empower related styles */
+
+.empower {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.empower-container {
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.empower-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  max-width: 550px;
+  height: 183px;
+}
+
+.empowering {
+  color: rgb(254, 163, 1);
+}
+
+.towards {
+  color: rgb(1, 172, 253);
+}
+
+.empower-des {
+  max-width: 640px;
+  height: 50px;
+  color: rgb(17, 17, 17);
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.btn-enroll button {
+  width: 197px;
+  height: 50px;
+  border: none;
+  border-radius: 12px;
+  background: rgb(17, 17, 17);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Quicksand;
+}
+
+@media screen and (max-width: 576px) {
+  /* navbar for mobile */
+
+  .navbar {
+    box-sizing: border-box;
+    border-bottom: 0.5px solid rgb(254, 163, 1);
+    padding: 20px 24px;
+  }
+  .nav-title,
+  .nav-options,
+  .nav-btn {
+    display: none;
+  }
+  .menu-bar {
+    display: inline;
+  }
+  .navbar-title > img {
+    width: 46px;
+    height: 46px;
+  }
+
+  /* empower for mobile */
+  .empower-container {
+    flex-direction: column-reverse;
+  }
+  .empower-container img {
+    width: 90%;
+  }
+  .empower-info {
+    text-align: center;
+  }
+  .empower-title {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0 30px;
+    margin: 0 auto;
+    height: 120px;
+  }
+  .empower-des {
+    margin: 20px auto 70px;
+    padding: 0 30px;
+  }
 }
