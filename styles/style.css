@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+.quicksand {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.raleway {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shared styles */
+
+.display-flex {
+  display: flex;
+}
+
+/* navbar styles */
+
+.navbar {
+  max-width: 1160px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-title {
+  align-items: center;
+}
+
+.nav-title {
+  color: rgb(17, 17, 17);
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.nav-options li {
+  list-style: none;
+  margin: 16px;
+}
+
+.nav-options a {
+  text-decoration: none;
+}
+
+.home {
+  color: rgb(254, 163, 1);
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.about {
+  color: rgb(1, 172, 253);
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.facilities {
+  color: rgb(5, 212, 223);
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.admission {
+  color: rgb(93, 88, 239);
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.nav-btn {
+  width: 197px;
+  height: 50px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-radius: 12px;
+  background: rgb(254, 163, 1);
+}
+
+.menu-bar {
+  display: none;
+}
+
+.menu-bar i {
+  font-size: 2.8rem;
+}
