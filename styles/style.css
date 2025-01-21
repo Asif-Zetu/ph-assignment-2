@@ -433,8 +433,9 @@ body {
 }
 
 .kids-logo img {
-  width: 82px;
-  height: 81px;
+  width: 76px;
+  height: 94px;
+  margin-right: 10px;
 }
 
 .kids-title {
@@ -620,5 +621,52 @@ body {
     border-radius: 12px;
     font-size: 16px;
     font-weight: 700;
+  }
+
+  /* footer for mobile */
+
+  .footer {
+    height: 642px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    padding-left: 30px;
+    margin-top: 20px;
+  }
+
+  .kids-title {
+    font-size: 35px;
+  }
+
+  .kids-des {
+    font-size: 16px;
+    width: 357px;
+    height: 80px;
+  }
+
+  .footer-nav h5 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .footer-nav {
+    margin-bottom: 25px;
+  }
+
+  .footer-nav li {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 12px -40px;
+  }
+
+  .footer-touch h5 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .kids,
+  .footer-nav {
+    margin-right: 0px;
   }
 }
