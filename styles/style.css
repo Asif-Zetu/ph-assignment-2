@@ -163,7 +163,7 @@ body {
 }
 
 .menu-bar i {
-  font-size: 2.8rem;
+  font-size: 1.9rem;
 }
 
 /* empower related styles */
@@ -256,6 +256,7 @@ body {
   color: rgb(32, 32, 32);
   font-size: 1.5rem;
   font-weight: 700;
+  margin-top: 30px;
 }
 
 .card-des {
@@ -394,6 +395,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 80px;
+  margin-bottom: 30px;
 }
 
 .view-btn {
@@ -486,6 +488,14 @@ body {
 
 .footer-touch img {
   margin-right: 10px;
+  margin-top: 10px;
+}
+
+marquee {
+  background-color: rgb(254, 163, 1);
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: -5px;
 }
 
 @media screen and (max-width: 576px) {
