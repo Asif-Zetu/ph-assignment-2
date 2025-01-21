@@ -107,6 +107,12 @@ body {
   align-items: center;
 }
 
+.navbar-title > img {
+  width: 70px;
+  height: 70px;
+  margin-right: 8px;
+}
+
 .nav-title {
   color: rgb(17, 17, 17);
   font-size: 2rem;
@@ -435,8 +441,8 @@ body {
 }
 
 .kids-logo img {
-  width: 76px;
-  height: 94px;
+  width: 83px;
+  height: 82px;
   margin-right: 10px;
 }
 
@@ -520,8 +526,8 @@ marquee {
     display: inline;
   }
   .navbar-title > img {
-    width: 46px;
-    height: 46px;
+    width: 50px;
+    height: 50px;
   }
 
   /* empower for mobile */
