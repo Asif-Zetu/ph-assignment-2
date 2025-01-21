@@ -28,7 +28,7 @@ body {
 
 .card-1-gradient {
   box-sizing: border-box;
-  border: 0.94px solid rgb(222, 245, 255);
+  border: 1px solid rgb(222, 245, 255);
   border-radius: 18.86px;
   box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
   background: linear-gradient(
@@ -41,7 +41,7 @@ body {
 
 .card-2-gradient {
   box-sizing: border-box;
-  border: 0.94px solid rgb(255, 244, 220);
+  border: 1px solid rgb(255, 244, 220);
   border-radius: 18.86px;
   box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
   background: linear-gradient(
@@ -54,7 +54,7 @@ body {
 
 .card-3-gradient {
   box-sizing: border-box;
-  border: 0.94px solid rgb(242, 232, 255);
+  border: 1px solid rgb(242, 232, 255);
   border-radius: 18.86px;
   box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
   background: linear-gradient(
@@ -75,6 +75,18 @@ body {
 
 .btn-3 {
   color: rgb(135, 0, 255);
+}
+
+.story-btn-1 {
+  background: rgb(60, 216, 232);
+}
+
+.story-btn-2 {
+  background: rgb(149, 178, 38);
+}
+
+.story-btn-3 {
+  background: rgb(93, 88, 240);
 }
 
 /* navbar styles */
@@ -270,6 +282,119 @@ body {
   font-size: 1.5rem;
   font-weight: 900;
   margin: 5px;
+}
+
+/* stories related styles */
+
+.stories {
+  height: 1018px;
+  background: url("../assets/bg.png"),
+    linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+}
+
+.whole-stories {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.stories-title {
+  justify-content: center;
+  align-items: center;
+}
+
+.stories-title h3 {
+  color: rgb(0, 0, 0);
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.stories-container {
+  gap: 18px;
+}
+
+.large-story {
+  max-width: 540px;
+  max-height: 630px;
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+
+.large-story img,
+.small-story img {
+  border-radius: 16px 16px 0px 0px;
+}
+
+.large-story div,
+.small-story div {
+  padding: 30px;
+}
+
+.story-title-1 {
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.story-des-1 {
+  color: rgb(102, 102, 102);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.stories-title {
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.small-story-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.small-story {
+  max-width: 290px;
+  max-height: 305px;
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+
+.btn-story {
+  width: 170px;
+  height: 45px;
+  border: none;
+  border-radius: 47px;
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 15.34px;
+  font-weight: 500;
+}
+
+.large-story div {
+  margin-top: -60px;
+}
+
+.small-story div {
+  margin-top: -60px;
+}
+
+.view-btn-container {
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.view-btn {
+  width: 197px;
+  height: 50px;
+  border: none;
+  border-radius: 12px;
+  background: rgb(17, 17, 17);
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 1.25rem;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 576px) {
