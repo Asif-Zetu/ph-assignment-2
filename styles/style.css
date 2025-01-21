@@ -18,8 +18,63 @@
 
 /* shared styles */
 
+body {
+  background-color: rgb(247, 247, 247);
+}
+
 .display-flex {
   display: flex;
+}
+
+.card-1-gradient {
+  box-sizing: border-box;
+  border: 0.94px solid rgb(222, 245, 255);
+  border-radius: 18.86px;
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(
+      180deg,
+      rgb(222, 245, 255),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+}
+
+.card-2-gradient {
+  box-sizing: border-box;
+  border: 0.94px solid rgb(255, 244, 220);
+  border-radius: 18.86px;
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(
+      180deg,
+      rgb(255, 244, 220),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+}
+
+.card-3-gradient {
+  box-sizing: border-box;
+  border: 0.94px solid rgb(242, 232, 255);
+  border-radius: 18.86px;
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(
+      180deg,
+      rgb(238, 225, 255),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+}
+
+.btn-1 {
+  color: rgb(100, 200, 255);
+}
+
+.btn-2 {
+  color: rgb(240, 170, 0);
+}
+
+.btn-3 {
+  color: rgb(135, 0, 255);
 }
 
 /* navbar styles */
@@ -143,6 +198,80 @@
   font-family: Quicksand;
 }
 
+/* standard related styles */
+
+.standard {
+  max-width: 1440px;
+  height: 800px;
+  margin: 0 auto;
+  background-image: url("../assets/bg.png");
+  background-repeat: no-repeat;
+}
+
+.standard-title {
+  max-width: 100%;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin: 50px 0 80px;
+}
+
+.standard-cards {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.standard-card {
+  justify-content: center;
+  align-items: center;
+  max-width: 365px;
+  height: 475px;
+  text-align: center;
+}
+
+.card-title {
+  color: rgb(32, 32, 32);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.card-des {
+  color: rgb(128, 128, 128);
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 20px;
+}
+
+.read-more {
+  font-size: 1rem;
+  font-weight: 700;
+  background: none;
+  border: none;
+}
+
+.arrow {
+  margin-top: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-left,
+.btn-right {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  background: rgb(254, 163, 1);
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin: 5px;
+}
+
 @media screen and (max-width: 576px) {
   /* navbar for mobile */
 
@@ -184,5 +313,36 @@
   .empower-des {
     margin: 20px auto 70px;
     padding: 0 30px;
+  }
+
+  /* standard for mobile */
+  .standard-title {
+    margin: 70px auto 30px;
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+    font-weight: 700;
+  }
+  .standard-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .standard-card {
+    margin: 0 auto -10px;
+    height: 400px;
+  }
+  .card-title {
+    font-size: 16px;
+    margin-bottom: -45px;
+  }
+  .card-des {
+    font-size: 11px;
+    padding: 50px;
+    margin-bottom: -30px;
+    line-height: 20px;
+  }
+  .arrow {
+    display: none;
+  }
+  .read-more {
+    font-size: 10.5px;
   }
 }
