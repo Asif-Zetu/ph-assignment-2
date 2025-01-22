@@ -427,12 +427,9 @@ body {
 .footer-container {
   max-width: 1070px;
   margin: 0 auto;
-  justify-content: space-between;
-}
-
-.kids,
-.footer-nav {
-  margin-right: 175px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
 }
 
 .kids-logo {
@@ -642,13 +639,13 @@ marquee {
   /* footer for mobile */
 
   .footer {
-    height: 642px;
+    height: 650px;
   }
 
   .footer-container {
-    flex-direction: column;
-    padding-left: 30px;
+    grid-template-columns: repeat(1, 1fr);
     margin-top: 20px;
+    gap: 10px;
   }
 
   .kids-title {
