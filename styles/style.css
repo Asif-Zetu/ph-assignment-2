@@ -296,6 +296,14 @@ body {
   font-size: 1.5rem;
   font-weight: 900;
   margin: 5px;
+  transition: transform 0.5s;
+}
+
+.btn-left:hover,
+.btn-right:hover {
+  background-color: rgb(1, 172, 253);
+  cursor: pointer;
+  transform: scale(1.05);
 }
 
 /* stories related styles */
@@ -569,11 +577,11 @@ marquee {
     height: 400px;
   }
   .card-title {
-    font-size: 16px;
+    font-size: 1.5rem;
     margin-bottom: -45px;
   }
   .card-des {
-    font-size: 11px;
+    font-size: 15px;
     padding: 50px;
     margin-bottom: -30px;
     line-height: 20px;
@@ -582,7 +590,7 @@ marquee {
     display: none;
   }
   .read-more {
-    font-size: 10.5px;
+    font-size: 13px;
   }
 
   /* stories for mobile */
